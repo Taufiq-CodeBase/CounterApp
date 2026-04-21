@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
           mainAxisAlignment: .center,
           children: [
-            const Text('You have tapped the button this times:'),
+            const Text('Times Tapped:'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
